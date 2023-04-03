@@ -1208,7 +1208,10 @@
     }
     #card-list br {
         display: none;
-        height: 1px;
+    }
+    #card-list li {
+        padding: 2px 0;
+        width: 95%;
     }
     #header-bottom__wrapper {
         justify-content: center;
@@ -1318,7 +1321,7 @@
     }
     #card-title {
         margin: 5px;
-        font-size: 24px;
+        font-size: 20px;
         width: 75%;
         display: flex;
         justify-content: center;
@@ -1353,25 +1356,34 @@
         align-items: center;
         height: 100%;
     }
+    #footer__flag {
+        width: 100px;
+    }
     #contact-us__footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        font-size: 12px;
     }
     #services-wrapper,
     #about-us__wrapper,
     #contact-us__wrapper {
-        width: 95%;
+        width: 98%;
+        padding: 0 10px;
     }
     #services-wrapper h1,
     #about-us__wrapper h1,
     #contact-us__wrapper h1 {
-        font-size: 16px;
+        font-size: 15px;
+        text-align: center;
     }
     #services-wrapper p,
     #about-us__wrapper p,
     #contact-us__wrapper p {
-        font-size: 16px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
     }
 }
