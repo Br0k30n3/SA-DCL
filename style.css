@@ -9,6 +9,7 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+/* Header */
 #header {
     display: flex;
     flex-direction: column;
@@ -60,6 +61,7 @@ body::-webkit-scrollbar {
 #header__flag {
     width: 200px;
 }
+/* Navbar/bottom header */
 #header-bottom {
     background-color: rgb(0, 119, 188);
     display: flex;
@@ -101,6 +103,7 @@ body::-webkit-scrollbar {
     display: flex;
     list-style: none;
 }
+/* Hero */
 #hero {
     display: flex;
     justify-content: center;
@@ -121,7 +124,7 @@ body::-webkit-scrollbar {
     border-radius: 5%;
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 28%;
     left: 5%;
 }
 #hero-info {
@@ -163,6 +166,7 @@ body::-webkit-scrollbar {
     font-weight: 800;
     width: 90%;
 }
+/* Service Section */
 #services {
     width: 100%;
     display: flex;
@@ -181,6 +185,26 @@ body::-webkit-scrollbar {
     width: 95%;
     font-size: 20px;
 }
+/* About us Section*/
+#about-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about-us__wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about-us__wrapper p {
+    width: 95%;
+    font-size: 20px;
+}
+/* footer */
 footer {
     width: 100%;
     height: 286px;
@@ -211,7 +235,7 @@ footer {
 #footer__flag {
     width: 200px;
 }
-#contact-us {
+#contact-us__footer {
     color: rgb(244, 244, 244);
 }
 #footer-btn {

@@ -94,12 +94,11 @@
         justify-content: center;
     }
     #nav-menu {
-        width: 90%;
+        width: 100%;
         justify-content: center;
     }
     #hero-img {
         display: none;
-        top: 25%;
     }
     #hero-info {
         width: 75%;
@@ -147,7 +146,6 @@
     }
     #hero-img {
         display: none;
-        top: 25%;
     }
     #hero-info {
         width: 75%;
@@ -160,6 +158,9 @@
     }
     #header-title {
         width: 75%;
+    }
+    #header-title h1 {
+        font-size: 28px;
     }
     #header__logo {
         width: 180px;
@@ -195,7 +196,6 @@
     }
     #hero-img {
         display: none;
-        top: 25%;
     }
     #hero-info {
         width: 75%;
@@ -310,7 +310,7 @@
         align-items: center;
         height: 100%;
     }
-    #contact-us {
+    #contact-us__footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -394,16 +394,20 @@
         align-items: center;
         height: 100%;
     }
-    #contact-us {
+    #contact-us__footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    #services-wrapper {
+    #services-wrapper,
+    #about-us__wrapper,
+    #contact-us__wrapper {
         width: 95%;
     }
-    #services-wrapper h1 {
+    #services-wrapper h1,
+    #about-us__wrapper h1,
+    #contact-us__wrapper h1 {
         font-size: 20px;
     }
 }
@@ -419,6 +423,9 @@
         padding: 17px 30px;
         font-size: 16px;
     }
+    #hero {
+        width: 100%;
+    }
     #hero-img {
         display: none;
         top: 25%;
@@ -430,7 +437,7 @@
         height: 433.8px;
         margin: 0;
         border-radius: 2% 2% 0 0;
-        padding: 15px;
+        padding: 0;
     }
     #hero-info h1 {
         margin-left: 20px;
@@ -468,7 +475,7 @@
         width: 100%;
         height: 40%;
         border-radius: 0;
-        padding: 15px;
+        padding: 15px 0;
     }
     #card-title {
         margin: 5px;
@@ -502,23 +509,29 @@
         align-items: center;
         height: 100%;
     }
-    #contact-us {
+    #contact-us__footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    #services-wrapper {
+    #services-wrapper,
+    #about-us__wrapper,
+    #contact-us__wrapper {
         width: 95%;
     }
-    #services-wrapper h1 {
+    #about-us__wrapper h1,
+    #services-wrapper h1,
+    #contact-us__wrapper h1 {
         font-size: 18px;
     }
-    #services-wrapper p {
+    #about-us__wrapper p,
+    #services-wrapper p,
+    #contact-us__wrapper p {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 871px) {
+@media screen and (min-width: 785px) and (max-width: 871px) {
     #header-bottom__wrapper {
         justify-content: center;
     }
@@ -541,7 +554,7 @@
         height: 433.8px;
         margin: 0;
         border-radius: 2% 2% 0 0;
-        padding: 15px;
+        padding: 0;
     }
     #hero-info h1 {
         margin-left: 20px;
@@ -579,7 +592,7 @@
         width: 100%;
         height: 40%;
         border-radius: 0;
-        padding: 15px;
+        padding: 0;
     }
     #card-title {
         margin: 5px;
@@ -613,19 +626,379 @@
         align-items: center;
         height: 100%;
     }
-    #contact-us {
+    #contact-us__footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    #services-wrapper {
+    #services-wrapper,
+    #about-us__wrapper,
+    #contact-us__wrapper {
         width: 95%;
     }
-    #services-wrapper h1 {
+    #services-wrapper h1,
+    #about-us__wrapper h1,
+    #contact-us__wrapper h1 {
         font-size: 18px;
     }
-    #services-wrapper p {
+    #services-wrapper p,
+    #about-us__wrapper p,
+    #contact-us__wrapper p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 744px) and (max-width: 784px) {
+    #header-bottom__wrapper {
+        justify-content: center;
+        width: 95%;
+    }
+    #nav-menu {
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-link {
+        padding: 17px 30px;
+        font-size: 16px;
+    }
+    #hero-img {
+        display: none;
+        top: 25%;
+    }
+    #hero-info {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 433.8px;
+        margin: 0;
+        border-radius: 2% 2% 0 0;
+        padding: 0;
+    }
+    #hero-info h1 {
+        margin-left: 20px;
+    }
+    #hero-info p {
+        font-size: 18px;
+        width: 95%;
+        margin: auto;
+    }
+    #header-title {
+        width: 100%;
+        margin: 0;
+        margin-left: 100px;
+    }
+    #header-title h1 {
+        font-size: 30px;
+    }
+    #header__logo {
+        width: 125px;
+        margin-top: 10px;
+    }
+    #hero-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: rgba(245, 245, 245, 0);
+        background-image: url("/images/hero-img.png");
+        background-position: right;
+        background-size: 200%;
+        padding: 0;
+        height: 800px;
+        width: 100%;
+    }
+    #hero__card {
+        width: 100%;
+        height: 40%;
+        border-radius: 0;
+        padding: 0;
+    }
+    #card-title {
+        margin: 5px;
+    }
+    #card-list {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #nav-item__container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #header__flag {
+        display: none;    
+    }
+    #header-middle__wrapper {
+        justify-content: center;
+    }
+    footer {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    #contact-us__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #services-wrapper,
+    #about-us__wrapper,
+    #contact-us__wrapper {
+        width: 95%;
+    }
+    #services-wrapper h1,
+    #about-us__wrapper h1,
+    #contact-us__wrapper h1 {
+        font-size: 18px;
+    }
+    #services-wrapper p,
+    #about-us__wrapper p,
+    #contact-us__wrapper p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 707px) and (max-width: 743px) {
+    #header-bottom__wrapper {
+        justify-content: center;
+        width: 100%;
+    }
+    #nav-menu {
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-link {
+        padding: 17px 30px;
+        font-size: 16px;
+    }
+    #hero-img {
+        display: none;
+        top: 25%;
+    }
+    #hero-info {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 433.8px;
+        margin: 0;
+        border-radius: 2% 2% 0 0;
+        padding: 0;
+    }
+    #hero-info h1 {
+        margin-left: 20px;
+    }
+    #hero-info p {
+        font-size: 18px;
+        width: 95%;
+        margin: auto;
+    }
+    #header-title {
+        width: 100%;
+        margin: 0;
+        margin-left: 100px;
+    }
+    #header-title h1 {
+        font-size: 30px;
+    }
+    #header__logo {
+        width: 125px;
+        margin-top: 10px;
+    }
+    #hero-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: rgba(245, 245, 245, 0);
+        background-image: url("/images/hero-img.png");
+        background-position: right;
+        background-size: 200%;
+        padding: 0;
+        height: 800px;
+        width: 100%;
+    }
+    #hero__card {
+        width: 100%;
+        height: 40%;
+        border-radius: 0;
+        padding: 0;
+    }
+    #card-title {
+        margin: 5px;
+    }
+    #card-list {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #nav-item__container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #header__flag {
+        display: none;    
+    }
+    #header-middle__wrapper {
+        justify-content: center;
+    }
+    footer {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    #contact-us__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #services-wrapper,
+    #about-us__wrapper,
+    #contact-us__wrapper {
+        width: 95%;
+    }
+    #services-wrapper h1,
+    #about-us__wrapper h1,
+    #contact-us__wrapper h1 {
+        font-size: 18px;
+    }
+    #services-wrapper p,
+    #about-us__wrapper p,
+    #contact-us__wrapper p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 706px) {
+    #header-bottom__wrapper {
+        justify-content: center;
+        width: 100%;
+    }
+    #nav-menu {
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-link {
+        padding: 17px 30px;
+        font-size: 16px;
+    }
+    #hero-img {
+        display: none;
+        top: 25%;
+    }
+    #hero-info {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 433.8px;
+        margin: 0;
+        border-radius: 2% 2% 0 0;
+        padding: 0;
+    }
+    #hero-info h1 {
+        margin-left: 20px;
+    }
+    #hero-info p {
+        font-size: 18px;
+        width: 95%;
+        margin: auto;
+    }
+    #header-title {
+        width: 100%;
+        margin: 0;
+        margin-left: 100px;
+    }
+    #header-title h1 {
+        font-size: 30px;
+    }
+    #header__logo {
+        width: 125px;
+        margin-top: 10px;
+    }
+    #hero-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: rgba(245, 245, 245, 0);
+        background-image: url("/images/hero-img.png");
+        background-position: right;
+        background-size: 200%;
+        padding: 0;
+        height: 800px;
+        width: 100%;
+    }
+    #hero__card {
+        width: 100%;
+        height: 40%;
+        border-radius: 0;
+        padding: 0;
+    }
+    #card-title {
+        margin: 5px;
+    }
+    #card-list {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #nav-item__container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #header__flag {
+        display: none;    
+    }
+    #header-middle__wrapper {
+        justify-content: center;
+    }
+    footer {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    #contact-us__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #services-wrapper,
+    #about-us__wrapper,
+    #contact-us__wrapper {
+        width: 95%;
+    }
+    #services-wrapper h1,
+    #about-us__wrapper h1,
+    #contact-us__wrapper h1 {
+        font-size: 18px;
+    }
+    #services-wrapper p,
+    #about-us__wrapper p,
+    #contact-us__wrapper p {
         font-size: 16px;
     }
 }
