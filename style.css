@@ -207,6 +207,37 @@ body::-webkit-scrollbar {
     width: 95%;
     font-size: 20px;
 }
+/* License page */
+#license-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+#license-wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.license {
+    width: 655px;
+}
+#license-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#license-status h1 {
+    margin: 5px 0;
+}
+
+#license-status h1 span {
+    font-weight: 800;
+    color: green
+}
 /* footer */
 footer {
     width: 100%;
