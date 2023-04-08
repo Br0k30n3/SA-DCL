@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 
 
 var key = document.getElementById("search__input");
@@ -15,13 +17,6 @@ for (let i in data.licenses) {
 }
 
 })
-
-
-
-
-
-
-
 
 function myFunction() {
     var x = document.getElementById("nav-menu");
