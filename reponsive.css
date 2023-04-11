@@ -340,8 +340,11 @@
         margin: 0;
         border-radius: 2% 2% 0 0;
     }
+    #hero-info h1 {
+        font-size: 28px;
+    }
     #hero-info p {
-        font-size: 18px;
+        font-size: 16px;
     }
     #header-title {
         width: 90%;
