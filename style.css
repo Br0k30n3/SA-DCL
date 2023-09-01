@@ -214,6 +214,12 @@ body::-webkit-scrollbar {
     justify-content: center;
     padding: 25px 0;
 }
+#license-container-w {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
 #license-wrapper {
     width: 90%;
     display: flex;
@@ -221,8 +227,18 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
 }
+#license-wrapper-w {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 .license {
     width: 655px;
+}
+.license-sm {
+    width: 250px;
 }
 #license-status {
     display: flex;
@@ -237,6 +253,41 @@ body::-webkit-scrollbar {
 #license-status h1 span {
     font-weight: 800;
     color: green
+}
+
+.valid {
+    color: green;
+}
+.invalid {
+    color: red;
+}
+tbody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+}
+.verified-list {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.verified-list tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.verified-list td, .verified-list th {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
 }
 /* footer */
 footer {
