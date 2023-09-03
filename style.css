@@ -282,12 +282,22 @@ tbody {
     flex-direction: row;
     justify-content: center;
 }
-.verified-list td, .verified-list th {
+.verified-list td {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 33%;
+    width: 50%;
+}
+.verified-list th {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#waiver_img {
+    width: 50%;
 }
 /* footer */
 footer {

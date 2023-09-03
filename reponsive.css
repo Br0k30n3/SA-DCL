@@ -422,6 +422,9 @@
         width: 90%;
         justify-content: center;
     }
+    #waiver_img {
+        width: 80%;
+    }
     .nav-link {
         padding: 17px 30px;
         font-size: 16px;
@@ -545,6 +548,9 @@
     #nav-menu {
         width: 100%;
         justify-content: center;
+    }
+    #waiver_img {
+        width: 80%;
     }
     .nav-link {
         padding: 17px 30px;
@@ -672,6 +678,9 @@
         padding: 17px 30px;
         font-size: 16px;
     }
+    #waiver_img {
+        width: 80%;
+    }
     #hero-img {
         display: none;
         top: 25%;
@@ -789,6 +798,9 @@
     #nav-menu {
         width: 100%;
         justify-content: center;
+    }
+    #waiver_img {
+        width: 80%;
     }
     .nav-link {
         padding: 17px 30px;
@@ -911,6 +923,9 @@
     #header-bottom__wrapper {
         justify-content: center;
         width: 100%;
+    }
+    #waiver_img {
+        width: 80%;
     }
     #nav-menu {
         width: 100%;
@@ -1042,6 +1057,9 @@
     #header-bottom__wrapper {
         justify-content: center;
         width: 100%;
+    }
+    #waiver_img {
+        width: 80%;
     }
     #nav-menu {
         width: 100%;
@@ -1208,6 +1226,33 @@
     #header-middle__wrapper {
         flex-direction: column;
         text-align: center;
+    }
+    #waiver_img {
+        width: 80%;
+    }
+    .verified-list {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        font-size: 14px;
+    }
+    .verified-list tr {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .verified-list td {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .verified-list .table-header {
+        display: none;
     }
     #card-list br {
         display: none;
