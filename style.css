@@ -180,9 +180,15 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     width: 90%;
-    padding: 0 20px;
+    padding: 10px 20px;
     justify-content: center;
     align-items: center;
+}
+.mortician_list_container {
+    min-height: 50vh;
+}
+#mortician_list {
+    padding: 50px 0;
 }
 #services-wrapper p {
     width: 95%;
